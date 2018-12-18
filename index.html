@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GOGYM</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fonawesome.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="clearfix">
+		<div class="logo">
+			<img src="img/the-gym.png" alt="">
+		</div><!--logo-->
+		<nav>
+			<a href="#" class="icon"><i class="fa fa-bars"></i></a>
+			<ul>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#traniner">TRAINERS</a></li>
+				<li><a href="#plans">PLANS</a></li>
+				<li><a href="#pricing">PRICING</a></li>
+				<li><a href="#facility">FACILITY</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="slider" id="home">
+		<img src="img/gym2.jpg" alt="">
+	</div><!--slider-->
+	<div class="clearfix">
+	<div class="one-third">
+		<div class="traniner animated bounce" id="traniner">
+			<i class="fa fa-facebook"></i>
+			<h1>BEST TRANINER AROUND</h1>
+			<p>Here at the Gym we have the best traning staff in the tri-<br>state area as we seek out and recuirt taleted traniers <br>with all the right certifications.Come in today and have a<sit down with one of our traniners so we can help you meet <br>goals in the fastest way possible!.</p>
+		</div><!--traniner-->
+	</div><!--one-third-->
+	<div class="one-third">
+		<div class="traniner animated flash" >
+			<i class="fa fa-plus"></i>
+			<h1>LOCAL /& CONVENCIENT</h1>
+			<p>Here at the Gym we have the best traning staff in the tri-<br>state area as we seek out and recuirt taleted traniers <br>with all the right certifications.Come in today and have a<sit down with one of our traniners so we can help you meet <br>goals in the fastest way possible!.</p>
+		</div><!--traniner-->
+	</div><!--one-third-->
+	<div class="one-third" id="plans">
+		<div class="traniner animated jello">
+			<i class="fa fa-check"></i>
+			<h1>CHECK US OUT FREE !</h1>
+			<p>Here at the Gym we have the best traning staff in the tri-<br>state area as we seek out and recuirt taleted traniers <br>with all the right certifications.Come in today and have a<sit down with one of our traniners so we can help you meet <br>goals in the fastest way possible!.</p>
+		</div><!--traniner-->
+	</div><!--one-third-->
+</div><!--clearfix-->
+<div class="clearfix">
+		<div class="group" id="pricing">
+			<div class="group-left">
+				<img src="img/get_gym_1.jpg">
+			</div><!--group-left-->
+			<div class="group-right">
+				<h1>OUR GROUP CLASS SHEDULE</h1>
+				<p>Studio cycling at 8  a.m-60 minutes<br><br><br>Abs Sculpting at 12 p.m-30minutes<br><br><br>Power Yoga at 8 a.m-60minutes<br><br><br>Boot camp at 8 a.m-60minutes<br><br><br>Building cycling at 8 a.m-60 minutes</p>
+			</div><!--group-right-->
+		</div><!--group-->
+	</div><!--clearfix-->
+	<div class="clearfix">
+		<div class="one-third">
+			<div class="traniner animated jello">
+				<h1>Ladies Section</h1>
+					<img src="img/l1.jpg" alt="">
+					<p>ncluded in our facilikty is a"ladies only" section of the gym<br>where women can workout to themselves</p>
+			</div><!--traniner-->
+		</div><!--one-third-->
+		<div class="one-third">
+			<div class="traniner" id="facility">
+				<h1>The Gym Floor</h1>
+				<img src="img/l2.jpg" alt="">
+				<p>ncluded in our facilikty is a"ladies only" section of the gym<br>where women can workout to themselves</p>
+			</div><!--traniner-->
+		</div><!--one-third-->
+		<div class="one-third">
+			<div class="traniner">
+				<h1>Free Weight</h1>
+				<img src="img/l2.jpg" alt="">
+				<p>ncluded in our facilikty is a"ladies only" section of the gym<br>where women can workout to themselves</p>
+		</div><!--traniner-->
+		</div><!--one-third-->
+	</div><!--clearfix-->
+		<footer class="clearfix" id="contact">
+			<div class="one-third">
+				<div class="connect">
+					<h1>THE GYM</h1>
+					<p>215-555-555<br><br>Philadelpio,pa 19100<br>traniner@thegym.com</p>
+				</div><!--connect-->
+			</div><!--one-third-->
+			<div class="one-third">
+				<div class="connect">
+					<h1>Connect With Us</h1>
+					<ul>
+						<li><i class="fa fa-facebook"></i></li>
+						<li><i class="fa fa-google-plus"></i></li>
+						<li><i class="fa fa-twitter"></i></li>
+						<li><i class="fa fa-youtube"></i></li>
+					</ul>
+				</div><!--connect-->
+			</div><!--one-third-->
+			<div class="one-third">
+				<div class="connect">
+					<img src="img/footer-pic.jpg" alt="">
+				</div><!--connect-->
+			</div><!--one-third-->
+		</footer>
+		<div class="copy animated bounce">
+			<p>Copyright-The Gym,2014</p>
+		</div><!--copy-->
+		<script src="js/jquery.js"></script>
+		<script>
+			// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 5000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,187 @@
+header{
+	background-color:#873131;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	top: 0px;
+}
+.logo img{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: 20px;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	padding-top: 50px;
+	float: right;
+}
+nav ul li{
+	display: inline;
+	margin-right: 30px; 
+	font-family: arial;
+	font-weight: bold;
+}
+nav ul li a{
+	color: #fefefe;
+}
+nav ul li a:hover{
+	border-bottom: 1px solid #fefefe;
+}
+.slider{
+	margin-top:25px;
+	margin-bottom:110px;
+	text-align: center;
+}
+.one-third{
+	width: 30%;
+	float: left;
+	margin-right:5%;
+}
+
+.one-third:last-child{
+	margin-right:0;
+}
+.traniner{
+	text-align: center;
+}
+.traniner i{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	color: #f0f0f0;
+	background-color: #555555;
+	border-radius: 100px;
+	font-size: 30px;
+}
+.traniner h1{
+	margin-top:30px;
+	margin-bottom:35px;
+	font-family: arial;
+	color: #555555;
+	font-size: 20px;
+	font-weight: bold;
+}
+.traniner p{
+	font-family: arial;
+	text-align: center;
+	font-size: 14px;
+	margin-right:30px;
+	margin-left:30px;
+	margin-bottom:90px;
+	color: #555555;
+}
+.group{
+	background-color:#f0f0f0;
+}
+.group-left{
+	width: 45%;
+	float: left;
+}
+.group-left img{
+	width: 100%;
+	margin-left: 50px;
+}
+.group-right{
+	width: 45%;
+	float: right;
+}
+.group-right h1{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #555555;
+	margin-top: 5px;
+	text-decoration: underline;
+}
+
+.group-right p{
+	margin-top: 75px;
+	font-family: arial;
+	color: #555555;
+}
+
+footer{
+	padding-top: 45px;
+	padding-bottom: 25px;
+	background-color: #542a32;
+}
+.connect{
+	text-align: center;
+}
+.connect h1{
+	margin-bottom: 30px;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fefefe;
+}
+.connect p{
+	font-family: arial;
+	color: #fefefe;
+}
+.connect ul li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+	line-height: 30px;
+	background-color: #fefefe;
+	font-size: 20px;
+}
+.connect ul li i{
+	color: #542a32;
+}
+.copy{
+	padding-top: 20px;
+	background-color: #3d3d3d;
+}
+.copy{
+	text-align: center;
+	font-family: arial;
+	color: #ffffff;
+}
+
+img{
+	max-width: 100%;
+}
+.icon{
+	display: none;
+}
+@media only screen and (max-width:768px){
+	.icon{
+		display: block;
+		position: absolute;
+		right: 30px;
+		top: 30px;
+		color: white;
+		font-size: 25px;
+	}
+	nav ul{
+		background-color: black;
+		border-radius: 15px;
+		display: none;
+		position: absolute;
+		right: 30px;
+		top: 50px;
+		width: 50%;
+		text-align: center;
+	}
+	nav ul li{
+		line-height: 30px;
+		display: block;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	.one-third,.group-left,.group-right{
+		margin: 0px;
+		width: 100%;	
+	}
+	.group-left img{
+		margin: 0px;
+	}
+	
+}
